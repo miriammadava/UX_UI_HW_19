@@ -1,5 +1,10 @@
 console.log("index.js file") 
 
+$( ".buttonPrimary" ).click(function() {
+    alert( "Handler for .click() called." );
+  });
+
+
 $(".navigation").on("click", function() {
     $(".inline-block").fadeOut(500);
     $("this").delay("slow").fadeIn(500);
