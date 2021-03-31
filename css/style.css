@@ -150,14 +150,13 @@ div .flexContainer{
     " project2Image project2Image project2Overview  ";
 }
 
-
 .project1Overview{
     grid-area: project1Overview;
     
 }
 .project1Image{
     grid-area: project1Image;
-    background-color: rgb(179, 181, 184); 
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 .project1Image img{
     height: auto;
@@ -167,20 +166,9 @@ div .flexContainer{
 }
 .project2Image{
     grid-area: project2Image;
-    background-color: rgb(179, 181, 184);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 .project2Image img{
-    height: auto;
-}
-
-.project3Overview{
-    grid-area: project3Overview;
-}
-.project3Image{
-    grid-area: project3Image;
-    background-color: rgb(179, 181, 184);
-}
-.project3Image img{
     height: auto;
 }
 
@@ -220,16 +208,7 @@ display: inline-block;
     grid-template-areas: 
     "project2Overview" 
     "project2Image" ;}
-
- .project3{
-    display: grid;
-    width: 100%;
-    grid-template-columns:1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "project3Overview" 
-    "project3Image" ;}   
-    
+      
 .buttonPrimary{
     background-color: rgb(120,104,230);
     color:white;
