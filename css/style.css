@@ -1,14 +1,13 @@
 .inline-block{
 display: inline-block;
 vertical-align: top;
+color: black;
 }
 
 nav{ 
     width: 100%;
     margin: 0 auto;
     padding: 3px;
-    background-color: #373738;
-    color: white;
     display: inline-block;
     text-align: center ;
     justify-content: space-evenly;
@@ -23,8 +22,8 @@ nav{
     display: inline-block;
 }
 .navigation img{
- width: 62.4px;
- height: 69.9px;
+ width: 63px;
+ height: 63px;
  margin: auto;
 }
 
@@ -35,28 +34,30 @@ ul{
 .heroimg{
     height: 500px;
     width: 100%; 
-    padding: 10px;
-    background-color: rgb(229,229,229);
-    display: block;
+    background-color:rgb(27,32,33);    display: block;
     text-align: center;
+}
+.content h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+
 }
 .content{
-    width: 500px;
+    width: 500pt;
+    padding: 5px;
     margin: 0 auto;
-    margin-top: 25px;
-    background-color: white;
-    padding: 15px;
+    background-color:rgb(27,32,33);
+    color: white;
     text-align: center;
-    font-family:'Cormorant Garamond', serif;
-    box-shadow: 0px 0px 3px 3px rgba(121, 121, 121, 0.3);
-}
-.content img{
-    width: 225px;
+    font-family:'Cormorant Garamond', serif;}
+
+    .content img{
+    width: 200px;
 }
 
 .buttonPrimary{
-    background-color: black;
-    color: white;
+    background-color: rgb(120,104,230);
+    color:white;
     padding: 15px;
     border-radius: 5px;
     text-decoration: none;
@@ -65,6 +66,7 @@ ul{
 
 .mySkills{
 text-align: center;
+background-color:rgba(237,238,247,0.5) ;
 }
 
 .mySkills h1{
@@ -85,7 +87,7 @@ text-align: center;
 
 .flexContainer{
     display: flex;
-    padding: 15pt;
+    padding: 25pt;
 }
 
 div .flexContainer{
@@ -99,6 +101,7 @@ div .flexContainer{
 
 .myWork{
     text-align: center;
+    background-image: linear-gradient(to right,rgb(228,251,255),rgb(184,181,255));
 }
 
 .myWork h1{
@@ -146,15 +149,7 @@ div .flexContainer{
     grid-template-areas: 
     " project2Image project2Image project2Overview  ";
 }
-.project3{
-    padding: 25pt;
-    display: grid;
-    height: 350px;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    " project3Overview project3Image project3Image  ";
-}
+
 
 .project1Overview{
     grid-area: project1Overview;
@@ -190,7 +185,7 @@ div .flexContainer{
 }
 
 footer {
-    background-color: #373738;
+    background-color:rgb(27,32,33);
     width:100%;
     padding:25px;
     font-family:'Cormorant Garamond', serif;
@@ -204,6 +199,7 @@ footer, li{
 padding: 1%;
 text-align: left;
 color: white;
+display: inline-block;
 }
 
 @media only screen and (max-width:600px) {
@@ -235,13 +231,12 @@ color: white;
     "project3Image" ;}   
     
 .buttonPrimary{
-    background-color: black;
-    color: white;
+    background-color: rgb(120,104,230);
+    color:white;
     padding: 10px;
     text-decoration: none;
     font-size: 12px;
     border-radius: 15px;
     transition: all 0.5s ease;
-}
 }
 }

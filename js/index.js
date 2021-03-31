@@ -1,7 +1,8 @@
 console.log("index.js file") 
 
+
 $( ".buttonPrimary" ).click(function() {
-    alert( "Handler for .click() called." );
+    $(this).css('color','red');
   });
 
 
