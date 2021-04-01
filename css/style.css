@@ -101,7 +101,7 @@ div .flexContainer{
 
 .myWork{
     text-align: center;
-    background-image: linear-gradient(to right,rgb(228,251,255),rgb(184,181,255));
+    background-image: linear-gradient(to right,rgba(228,251,255,0.5),rgba(184,181,255,0.5));
 }
 
 .myWork h1{
